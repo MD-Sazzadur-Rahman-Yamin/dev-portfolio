@@ -1,0 +1,68 @@
+/* Global style */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.p {
+    font-size: 18px;
+    color: #757575;
+}
+
+.primari-color {
+    color: #FD6E0A;
+}
+
+.btn{
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px;
+    color: white;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Header */
+
+header{
+    background-color: #FFF8F3;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 230px;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
+
+nav h3 {
+    font-size: 45px;
+    font-weight: 800;
+}
